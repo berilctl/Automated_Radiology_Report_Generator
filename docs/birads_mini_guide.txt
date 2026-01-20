@@ -1,0 +1,25 @@
+BI-RADS ULTRASOUND LEXICON & ASSESSMENT CATEGORIES
+
+1. SHAPE (Şekil)
+- Oval: Elliptical shape, may have 2 or 3 undulations (gentle lobulations). Suggests benign.
+- Round: Spherical, ball-shaped.
+- Irregular: Shape that is neither round nor oval. Suggests malignancy.
+
+2. MARGIN (Kenar)
+- Circumscribed: Well-defined, sharp borders. Suggests benign.
+- Indistinct: No clear boundary between mass and surrounding tissue.
+- Spiculated: Lines radiating from the mass. Highly suggestive of malignancy.
+
+3. ECHO PATTERN (Eko Yapısı)
+- Anechoic: No internal echoes (black). Typical for simple cysts.
+- Hypoechoic: Darker than fat. Most solid masses are hypoechoic.
+- Isoechoic: Same echogenicity as fat.
+
+4. BI-RADS CATEGORIES & MANAGEMENT
+- Category 0: Incomplete. Need additional imaging.
+- Category 1: Negative. Routine screening.
+- Category 2: Benign. Routine screening. (e.g., Simple cyst).
+- Category 3: Probably Benign. Short-interval follow-up (6 months) suggested. Malignancy risk < 2%.
+- Category 4: Suspicious. Biopsy should be considered. Risk 2-95%.
+- Category 5: Highly Suggestive of Malignancy. Biopsy required. Risk > 95%.
+- Category 6: Known Biopsy-Proven Malignancy. Surgical excision required.
