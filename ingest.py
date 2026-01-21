@@ -80,16 +80,16 @@ def main():
     import getpass
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        print("⚠️  API Key not found in environment variables.")
+        print("API Key not found in environment variables.")
         # getpass prevents the password from being displayed on screen (not even asterisks, secure)
         # If getpass causes issues, you can also use plain input().
         try:
-            api_key = getpass.getpass("👉 Please paste your OpenAI API Key and press Enter: ")
+            api_key = getpass.getpass("Please paste your OpenAI API Key and press Enter: ")
         except:
-            api_key = input("👉 Please paste your OpenAI API Key and press Enter: ")
+            api_key = input("Please paste your OpenAI API Key and press Enter: ")
             
     if not api_key or not api_key.startswith("sk-"):
-        print("\n❌ Invalid or empty API Key! Terminating program.")
+        print("\nInvalid or empty API Key! Terminating program.")
         return
     # ----------------------------------------------------
 
@@ -103,11 +103,11 @@ def main():
         # 3. Create vector database (sending API Key here)
         vectorstore = create_vectorstore(chunks, persist_directory="./chroma_db", api_key=api_key)
         
-        print("\n✅ Operation completed successfully!")
-        print(f"📁 Vector database created: ./chroma_db")
+        print("\nOperation completed successfully!")
+        print(f"Vector database created: ./chroma_db")
         
     except Exception as e:
-        print(f"\n❌ Error: {str(e)}")
+        print(f"\nError: {str(e)}")
         raise
 
 if __name__ == "__main__":
